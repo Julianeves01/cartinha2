@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFEBEE;
+    color: #C2185B;
+    text-align: center;
+}
+
+.header, .footer {
+    background-color: #F06292;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.pagina-aniversario {
+    padding: 30px;
+}
+
+.pagina-aniversario h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#entrar {
+    background-color: #F06292;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#entrar:hover {
+    background-color: #D81B60;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 15px;
+    background-color: #F06292;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #D81B60;
+}
